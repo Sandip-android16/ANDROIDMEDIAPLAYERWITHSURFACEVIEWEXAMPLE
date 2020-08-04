@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#4d4d4d"
+    android:gravity="center"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <SurfaceView
+        android:background="@android:color/transparent"
+        android:id="@+id/surface"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressBar1"/>
+
+</RelativeLayout>
